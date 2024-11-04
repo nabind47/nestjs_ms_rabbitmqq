@@ -1,0 +1,12 @@
+POST http://localhost:3000/orders HTTP/1.1
+content-type: application/json
+
+{
+    "id": 308,
+    "productId": "f8ef6b3d-fda5-4b8f-ace0-9d9d8efd1616",
+    "quantity": 6
+}
+
+###
+ 
+GET http://localhost:3000/orders
